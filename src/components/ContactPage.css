@@ -44,6 +44,66 @@
   margin-right: auto;
 }
 
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: left;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.contact-form .btn-primary {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.consultation-link {
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.consultation-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.consultation-link a:hover {
+  text-decoration: underline;
+}
+
 .contact-page-container .btn-primary {
   display: inline-block;
   background-color: #007bff;

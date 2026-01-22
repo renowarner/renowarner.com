@@ -9,7 +9,31 @@ const ContactPage = () => {
           <p>
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           </p>
-          <Link to="/schedule-consultation" className="btn btn-primary">Schedule a Consultation</Link>
+          
+          <form 
+            action="https://formspree.io/f/reno@renowarner.com" 
+            method="POST" 
+            className="contact-form"
+          >
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name" />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email" />
+            </div>
+            <div className="form-group">
+              <label htmlFor="note">Note</label>
+              <textarea id="note" name="note" required placeholder="Your Message" rows={5}></textarea>
+            </div>
+            <button type="submit" className="btn btn-primary">Send Message</button>
+          </form>
+
+          <div className="consultation-link">
+            <span>Or </span>
+            <Link to="/schedule-consultation">Schedule a Consultation</Link>
+          </div>
         </div>
       </section>
     </div>
