@@ -1,4 +1,5 @@
 import './AboutPage.css';
+import headshot from '../assets/ai_headshot_bw.png';
 
 const AboutPage = () => {
   return (
@@ -6,9 +7,8 @@ const AboutPage = () => {
       <section id="about" className="about-section">
         <div className="container">
           <div className="about-content">
-            <div className="about-image-placeholder">
-              {/* Replace with your headshot image */}
-              <div className="placeholder-box">Headshot Placeholder</div>
+            <div className="about-image-container">
+              <img src={headshot} alt="Reno Warner" className="headshot-img" />
             </div>
             <div className="about-text">
               <p>
