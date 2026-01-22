@@ -16,7 +16,7 @@
 }
 
 .skills-tooling-page-container h2 {
-  font-size: 3em;
+  font-size: clamp(2em, 6vw, 3em);
   color: #007bff;
   margin-bottom: 60px;
   text-align: center;
@@ -36,9 +36,19 @@
 
 .skills-tooling-page-container .skills-tooling-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .skills-tooling-page-container {
+    padding: 40px 0;
+  }
+  
+  .skills-tooling-page-container .skills-tooling-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
 }
 
 .skills-tooling-page-container .skills-tooling-item {

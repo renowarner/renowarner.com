@@ -19,7 +19,15 @@ body {
 }
 
 .container {
-  max-width: 1200px; /* Wider container for content */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 }
