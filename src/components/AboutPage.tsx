@@ -1,5 +1,5 @@
 import './AboutPage.css';
-import headshot from '../assets/ai_headshot_bw.png';
+import headshot from '../assets/ai_headshot_bw_final.png';
 
 const AboutPage = () => {
   return (
