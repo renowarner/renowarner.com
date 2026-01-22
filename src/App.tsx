@@ -5,7 +5,8 @@ import HomePage from './components/HomePage';
 import ConsultationPage from './components/ConsultationPage';
 import Footer from './components/Footer';
 import AboutPage from './components/AboutPage';
-import SkillsToolingPage from './components/SkillsToolingPage';
+import NoCodeSystemDesign from './components/NoCodeSystemDesign';
+import SystemAdministration from './components/SystemAdministration';
 import ContactPage from './components/ContactPage';
 import ManagedAiChatbotsPage from './components/ManagedAiChatbotsPage';
 
@@ -30,7 +31,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/schedule-consultation" element={<ConsultationPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/skills-tooling" element={<SkillsToolingPage />} />
+        <Route path="/no-code-system-design" element={<NoCodeSystemDesign />} />
+        <Route path="/system-administration" element={<SystemAdministration />} />
         <Route path="/managed-ai-chatbots" element={<ManagedAiChatbotsPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

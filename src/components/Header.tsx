@@ -12,8 +12,14 @@ const Header = () => {
           <nav className="main-nav">
             <ul>
               <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/skills-tooling">Skills & Tooling</NavLink></li>
-              <li><NavLink to="/managed-ai-chatbots">Managed AI Chatbots</NavLink></li>
+              <li className="dropdown">
+                <span className="dropdown-trigger">Services & Solutions</span>
+                <ul className="dropdown-menu">
+                  <li><NavLink to="/managed-ai-chatbots">Managed AI Chatbots</NavLink></li>
+                  <li><NavLink to="/no-code-system-design">No-Code System Design</NavLink></li>
+                  <li><NavLink to="/system-administration">System Administration</NavLink></li>
+                </ul>
+              </li>
               <li><NavLink to="/contact">Contact</NavLink></li>
               <li>
                 <NavLink to="/schedule-consultation">Schedule Consultation</NavLink>
