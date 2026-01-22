@@ -35,13 +35,13 @@
 }
 
 .headline-main {
-  font-size: clamp(1.2em, 5.5vw, 3.2em);
+  font-size: clamp(1.2em, 5.2vw, 3.0em);
   font-weight: bold;
   white-space: nowrap;
 }
 
 .headline-sub {
-  font-size: clamp(0.8em, 3.8vw, 2.2em);
+  font-size: clamp(0.8em, 3.4vw, 1.8em);
   color: #ffffff;
   font-weight: normal;
   white-space: nowrap;
