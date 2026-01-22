@@ -6,7 +6,6 @@ const ServicesPage = () => {
     <div className="services-page-container">
       <section className="services-section">
         <div className="container">
-          <h2>Services & Solutions</h2>
           <div className="services-grid">
             <Link to="/managed-ai-chatbots" className="service-card">
               <h3>Managed AI Chatbots</h3>
