@@ -16,25 +16,25 @@
 /* Hero Section */
 .hero-section {
   text-align: center;
-  padding: 120px 20px;
+  padding: 120px 0;
   background-color: #121212; /* Ensure dark background */
 }
 
 .hero-section h2 {
-  font-size: clamp(2.5em, 8vw, 4em);
+  font-size: 4em;
   margin-bottom: 15px;
   color: #007bff; /* Highlight color for name */
   letter-spacing: 2px;
 }
 
 .hero-section .hero-tagline {
-  font-size: clamp(1.2em, 4vw, 1.8em);
+  font-size: 1.8em;
   margin-bottom: 30px;
   color: #aaa;
 }
 
 .hero-section p {
-  font-size: clamp(1em, 3vw, 1.2em);
+  font-size: 1.2em;
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto;
@@ -43,25 +43,11 @@
 
 /* About, Skills, Tooling, Experience, Contact Sections */
 .homepage h2 {
-  font-size: clamp(2em, 6vw, 3em);
+  font-size: 3em;
   text-align: center;
   margin-bottom: 60px;
   color: #fff;
   position: relative;
-}
-
-@media (max-width: 768px) {
-  .homepage section {
-    padding: 60px 0;
-  }
-  
-  .hero-section {
-    padding: 80px 20px;
-  }
-
-  .skills-tooling-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
 }
 
 .homepage h2::after {
